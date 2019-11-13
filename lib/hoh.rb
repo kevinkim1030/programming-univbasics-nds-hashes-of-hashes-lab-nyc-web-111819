@@ -30,7 +30,7 @@
 # }
  
  
-naming_system = {
+hash_of_hashes = {
   label: "Kingdom",
   sub_category: {
     label: "Phylum",
@@ -53,7 +53,7 @@ naming_system = {
   }
 }
 def naming_system
-  naming_system
+  hash_of_hashes
   # So, if we have the "Kingdom" node we should be able to "tunnel" into the
   # HoH all the way to Species!
 end
